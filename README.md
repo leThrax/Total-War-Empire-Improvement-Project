@@ -6,6 +6,9 @@
 ![Game](https://img.shields.io/badge/Empire%3A%20Total%20War-Steam%20v1.5.0-8b0000)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
 ![Requires](https://img.shields.io/badge/requires-DXVK%20(included)-green)
+![Discord](https://img.shields.io/discord/1560935812110098492?link=https%3A%2F%2Fdiscord.com%2Finvite%2Fgb272tA58n)
+
+Join the Discord Server: https://img.shields.io/discord/1560935812110098492?link=https%3A%2F%2Fdiscord.com%2Finvite%2Fgb272tA58n
 
 Empire Patch changes the game while it runs: `Empire.exe` and the game's data files are not modified, and no game
 files are included. Most settings can be changed in the game, in a **Patch Options** menu in the game's own style.
