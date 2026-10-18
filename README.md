@@ -8,7 +8,7 @@
 ![Requires](https://img.shields.io/badge/requires-DXVK%20(included)-green)
 ![Discord](https://img.shields.io/discord/1560935812110098492?link=https%3A%2F%2Fdiscord.com%2Finvite%2Fgb272tA58n)
 
-Join the Discord Server: https://img.shields.io/discord/1560935812110098492?link=https%3A%2F%2Fdiscord.com%2Finvite%2Fgb272tA58n
+Join the Discord Server: https://discord.com/invite/gb272tA58n
 
 Empire Patch changes the game while it runs: `Empire.exe` and the game's data files are not modified, and no game
 files are included. Most settings can be changed in the game, in a **Patch Options** menu in the game's own style.
