@@ -1,0 +1,28 @@
+EMPIRE PATCH LICENCE
+====================
+
+Copyright (c) 2026 Thrax. All rights reserved.
+
+This licence covers version.dll, empire_patch.dll, empire_patch.ini and the text files of
+Empire Patch. The included DXVK (d3d9.dll) and the MinHook library built into empire_patch.dll
+are covered by their own licences, see THIRD-PARTY-NOTICES.txt.
+
+1. You may download, install and use Empire Patch free of charge, for any non-commercial
+   purpose.
+2. You may redistribute Empire Patch only as the complete, unmodified release archive (or its
+   complete, unmodified contents), free of charge, with this file included. Mod collections and
+   mod managers may include it on the same terms, with a credit and a link to the original page.
+3. You may not sell Empire Patch, distribute modified versions of its files, or present it as
+   your own work.
+4. Editing empire_patch.ini for your own use is of course allowed, and so is sharing your own
+   settings files.
+
+Empire Patch is provided "as is", without warranty of any kind, express or implied, including
+but not limited to the warranties of merchantability, fitness for a particular purpose and
+non-infringement. In no event shall the author be liable for any claim, damages or other
+liability, whether in an action of contract, tort or otherwise, arising from, out of or in
+connection with Empire Patch or its use.
+
+Empire Patch is a fan project and is not affiliated with, endorsed or supported by Creative
+Assembly or SEGA. Empire: Total War and Total War are trademarks of their respective owners.
+No files of the game are included.
