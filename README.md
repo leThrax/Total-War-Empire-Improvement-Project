@@ -168,6 +168,7 @@ Please [open an issue](../../issues) and attach:
   saves them at every crash and keeps the last 5).
 - **Otherwise:** `empire_patch.log` from the game folder. It's written again at every start, so copy it right after
   the problem.
+- Visit the Discord Server and post a report in the bugs forum
 
 Describe your PC (graphics card, resolution) and what you did.
 
