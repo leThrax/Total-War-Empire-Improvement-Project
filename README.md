@@ -2,13 +2,10 @@
 
 **Fixes, performance and graphics upgrades for _Empire: Total War_**
 
-![Version](https://img.shields.io/badge/version-0.9.1--beta-orange)
+![Version](https://img.shields.io/badge/version-0.9.2--beta-orange)
 ![Game](https://img.shields.io/badge/Empire%3A%20Total%20War-Steam%20v1.5.0-8b0000)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
 ![Requires](https://img.shields.io/badge/requires-DXVK%20(included)-green)
-![Discord](https://img.shields.io/discord/1560935812110098492?link=https%3A%2F%2Fdiscord.com%2Finvite%2Fgb272tA58n)
-
-Join the Discord Server: https://discord.com/invite/gb272tA58n
 
 Empire Patch changes the game while it runs: `Empire.exe` and the game's data files are not modified, and no game
 files are included. Most settings can be changed in the game, in a **Patch Options** menu in the game's own style.
@@ -30,6 +27,7 @@ files are included. Most settings can be changed in the game, in a **Patch Optio
 - [Multiplayer](#multiplayer)
 - [Linux / Steam Deck](#linux--steam-deck)
 - [Known issues](#known-issues)
+- [Troubleshooting](#troubleshooting)
 - [Reporting problems](#reporting-problems)
 
 ---
@@ -98,7 +96,7 @@ files are included. Most settings can be changed in the game, in a **Patch Optio
    | `version.dll` | loads the patch (Windows loads it with the game) |
    | `empire_patch.dll` | the patch |
    | `empire_patch.ini` | the settings |
-   | `d3d9.dll` | DXVK {DXVK_VERSION} (Direct3D 9 on Vulkan) |
+   | `d3d9.dll` | DXVK v3.1.1 (Direct3D 9 on Vulkan) |
    | `empire_patch_fonts\` | the font Libre Caslon Text and the tool that makes the game's fonts from it |
    | `README.txt`, `CHANGELOG.txt`, `LICENSE.txt`, `THIRD-PARTY-NOTICES.txt` | |
 
@@ -162,13 +160,25 @@ WINEDLLOVERRIDES="version=n,b" %command%
 
 ---
 
+## Troubleshooting
+**The game crashes right at startup (before the main menu), also without the patch.**
+Check `%APPDATA%\The Creative Assembly\Empire\scripts\` for a file named `user.empire_script.txt`. It's the game's
+mod list (lines like `mod "something.pack";`), and every Empire install on the PC reads the same file. If it lists
+a pack that isn't in this install's `data` folder (for example after playing a mod in another copy of the game),
+the game crashes while loading its database. Delete the file, or rename it while you play without that mod. A
+reinstall of the game doesn't help, because the file isn't in the game folder.
+
+In the patch's crash log (`crashes` folder) this crash shows up as `Ghidra 00574D48` with
+`read of address 00000004`.
+
+---
+
 ## Reporting problems
-Please [open an issue](../../issues) and attach:
+Visit the Discord Server and post a report in the bugs forum, or [open an issue](../../issues). Please attach:
 - **For a crash:** the newest `.dmp` and `.log` file pair from the `crashes` folder in the game folder (the patch
   saves them at every crash and keeps the last 5).
 - **Otherwise:** `empire_patch.log` from the game folder. It's written again at every start, so copy it right after
   the problem.
-- Visit the Discord Server and post a report in the bugs forum
 
 Describe your PC (graphics card, resolution) and what you did.
 
