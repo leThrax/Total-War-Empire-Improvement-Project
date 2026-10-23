@@ -2,7 +2,7 @@
 
 **Fixes, performance and graphics upgrades for _Empire: Total War_**
 
-![Version](https://img.shields.io/badge/version-0.9.3--beta-orange)
+![Version](https://img.shields.io/badge/version-0.9.4--beta-orange)
 ![Game](https://img.shields.io/badge/Empire%3A%20Total%20War-Steam%20v1.5.0-8b0000)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue)
 ![Requires](https://img.shields.io/badge/requires-DXVK%20(included)-green)
